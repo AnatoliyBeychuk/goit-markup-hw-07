@@ -1,0 +1,24 @@
+.logo {
+    margin-right: 93px;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+    text-align: left;
+    color: $logo-color;
+    width: 145px;
+    height: 31px;
+
+    .logo__web--blue {
+        color: $accent-logo-color;
+    }
+
+    .logo__studio--white {
+        color: $accent-text-color-white;
+    }
+  }
+
+  .logo--footer {
+    margin-right: 0;
+  }
