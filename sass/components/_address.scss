@@ -1,50 +1,50 @@
 .address-box {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    .address {
-        width: 231px;
-        margin-top: 20px;
-      }
+  .address {
+    width: 231px;
+    margin-top: 20px;
+  }
 }
 
-.address__item {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    text-align: left;
-    font-style: normal;
+.address-list__item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  font-style: normal;
 
-    &:not(:first-child) {
-        margin-top: 9px;
-      }
+  &:not(:first-child) {
+    margin-top: 9px;
+  }
 
-      .address__our {
-        color: $accent-text-color-white;
-      }
+  .address-list__our {
+    color: $accent-text-color-white;
+  }
 
-      .address__mail {
-        color: $link-text-color;
-        transition: color 250ms $transition-cubic;
-      }
+  .address-list__mail {
+    color: $link-text-color;
+    transition: color 250ms $transition-cubic;
+  }
 
-      .address__tel {
-        color: $link-text-color;
-        transition: color 250ms $transition-cubic;
-      }
+  .address-list__tel {
+    color: $link-text-color;
+    transition: color 250ms $transition-cubic;
+  }
 }
 
-.address__mail {
-    &:hover,
-    &:focus {
-        color: $accent-text-color-blue;
-    }
+.address-list__mail {
+  &:hover,
+  &:focus {
+    color: $accent-text-color-blue;
+  }
 }
 
-.address__tel {
-    &:hover,
-    &:focus {
-        color: $accent-text-color-blue;
-    }
+.address-list__tel {
+  &:hover,
+  &:focus {
+    color: $accent-text-color-blue;
+  }
 }
